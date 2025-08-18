@@ -1,62 +1,299 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
-        <title>Abish Pius</title>
-    </head>
-    <body>
-        <h1 id="myHeader">Welcome, Browse and Connect</h1></h1>
-<img src="080__Abish_Pius_0009asmallsize.jpg" alt="Abish Pius" height = "250" width = "250">
-<hr>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abish Pius - Data Scientist & AI/ML Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Abish Pius</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#books" class="nav-link">Books</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<div class="jumbotron">
-  <h1 class="display-4">Abish Pius</h1>
-  <p class="lead">
-      About Me</p>
-  <hr class="my-4">
-  <p>Hello World! <br>
-    My name is Abish Pius and welcome to my webpage.
-    After spending two decandes in the natural sciences,
-    I recently became excited by the vast opportunity present in the world of Data Sciences.
-    My ambition is to become a machine learning engineer and bridge the gap between healthcare and data science through advancements in cloud computing technologies.
-    I consider myself a rather avid learner and exceptional creative
-    <a href="https://www.bing.com/search?q=dilettante&qs=n&form=QBRE&sp=-1&pq=delitante&sc=6-9&sk=&cvid=9CB2B1BCC2E54A02AD643C4AA94D822A" add target="_blank">dilettante</a>.
-    The primary language I like to use for scripting is R, albeit I am familiar with C, JAVA, Python and Matlab; while for cloud computing I prefer Google Cloud, but am also very familiar with AWS.
-    If you would like to learn more about me, please check out the rest of the website below!</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Data Scientist & AI/ML Engineer</h1>
+                    <p class="hero-subtitle">Bridging the gap between healthcare and data science through advanced AI solutions</p>
+                    <div class="hero-buttons">
+                        <a href="#resume" class="btn btn-primary">View Resume</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/abish-pius-424566b3/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/abishpius" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.kaggle.com/abishpius" target="_blank"><i class="fab fa-kaggle"></i></a>
+                        <a href="mailto:abishpius@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="080__Abish_Pius_0009asmallsize.jpg" alt="Abish Pius" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            
+            <!-- Skills -->
+            <div class="resume-section">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>AI/ML & Cloud</h4>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Azure</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Development & Tools</h4>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Kedro</span>
+                            <span class="skill-tag">LangChain</span>
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        <h3 id="Links">Links</h3>
-        <p id="Links2">
- <a href="Resume.html" class="btn btn-primary btn-lg btn-block" add target="_blank" role="button" aria-pressed="true">Online Résumé</a>
-<a href="R.html" class="btn btn-secondary btn-lg btn-block" add target="_blank" role="button" aria-pressed="true">Learn R</a>
-<a href="Contact.html" class="btn btn-success btn-lg btn-block" add target="_blank" role="button" aria-pressed="true">Contact Me</a>
+            <!-- Experience -->
+            <div class="resume-section">
+                <h3>Work Experience</h3>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h4>AI/ML Engineer</h4>
+                        <span class="company">Kloudstax</span>
+                        <span class="date">Jun 2025 – Current</span>
+                    </div>
+                    <ul>
+                        <li>Delivered 2 solutions using Google's Agent Development Kit (ADK) for startup organizations</li>
+                        <li>Consulted on pre-sales and delivery securing over $100,000 in committed spend</li>
+                        <li>Pre-selected for Google's AI Startup Kickoff program</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h4>Data Scientist</h4>
+                        <span class="company">United States Steel Corporation</span>
+                        <span class="date">Jan 2021 – Jun 2025</span>
+                    </div>
+                    <ul>
+                        <li>Led Generative AI use cases for USS Private GPT and AI Structured Data Analyst</li>
+                        <li>Designed iron ore price forecasting model with >10% expected returns</li>
+                        <li>Achieved 98% precision in pipe inventory counting using Azure custom vision</li>
+                    </ul>
+                </div>
+            </div>
 
-        </p>
-<hr>
-<h4 id = "Media">Connect With Me</h4>
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="https://www.linkedin.com/in/abish-pius-424566b3/" add target="_blank">Linked-in</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/abishpius" add target="_blank">Github</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.kaggle.com/abishpius" add target="_blank">Kaggle</a>
-  </li>
-  </ul>
-<hr>
+            <!-- Certifications -->
+            <div class="resume-section">
+                <h3>Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <i class="fab fa-aws"></i>
+                        <div>
+                            <h4>AWS Certified Machine Learning - Specialty</h4>
+                            <p>March 2023 – March 2026</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fab fa-google"></i>
+                        <div>
+                            <h4>Professional Machine Learning Engineer</h4>
+                            <p>April 2024 – April 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<h5 id="Search">Search with Google</h5>
-<form onsubmit = "greet(); return false;" action="https://www.google.com/search" method = "get">
-    <input name = "q" type = "text">
-    <input type = "submit" value = "Search">
-</form>
+            <!-- Featured Projects -->
+            <div class="resume-section">
+                <h3>Featured Projects</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <i class="fas fa-trophy"></i>
+                        <h4>2025 MLB Hackathon Winner</h4>
+                        <p>Computer Vision Model using TensorFlow SpatioTemporal Neural Network. Won $5000 prize and showcased at Google Cloud Next 2025.</p>
+                    </div>
+                    <div class="project-card">
+                        <i class="fas fa-medal"></i>
+                        <h4>Kaggle Competition - Top 9%</h4>
+                        <p>ICR Age-Related Conditions prediction using ensemble models (Random Forest, XGB, LightGBM) with Optuna optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Blog</h2>
+            <div class="blog-intro">
+                <p>I share insights about AI/ML engineering, data science, and technology on Medium. Check out my latest articles and thoughts on bridging healthcare and AI.</p>
+                <a href="https://abishpius.medium.com/" target="_blank" class="btn btn-primary">Visit My Medium Blog</a>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Building Generative AI Solutions in Enterprise</h3>
+                        <p>Insights from implementing USS Private GPT and lessons learned in enterprise AI deployment...</p>
+                        <div class="blog-meta">
+                            <span class="date">Recent</span>
+                            <span class="read-time">On Medium</span>
+                        </div>
+                        <a href="https://abishpius.medium.com/" target="_blank" class="read-more">Read on Medium</a>
+                    </div>
+                </article>
 
-    </body>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Time Series Forecasting for Commodity Prices</h3>
+                        <p>How I built a 6-month iron ore price forecasting model with >10% returns using advanced ML techniques...</p>
+                        <div class="blog-meta">
+                            <span class="date">Recent</span>
+                            <span class="read-time">On Medium</span>
+                        </div>
+                        <a href="https://abishpius.medium.com/" target="_blank" class="read-more">Read on Medium</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Computer Vision in Industrial Applications</h3>
+                        <p>Achieving 98% precision in automated inventory counting using Azure Custom Vision and Oracle Vision...</p>
+                        <div class="blog-meta">
+                            <span class="date">Recent</span>
+                            <span class="read-time">On Medium</span>
+                        </div>
+                        <a href="https://abishpius.medium.com/" target="_blank" class="read-more">Read on Medium</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section id="books" class="books">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="books-grid">
+                <div class="book-card">
+                    <div class="book-cover">
+                        <i class="fab fa-r-project"></i>
+                    </div>
+                    <div class="book-info">
+                        <h3>R Tutorial From Scratch</h3>
+                        <p class="book-subtitle">Complete Guide to R Programming</p>
+                        <p class="book-description">A comprehensive tutorial covering R programming from basics to advanced topics. Perfect for beginners wanting to learn statistical computing and data analysis with R.</p>
+                        <div class="book-status">
+                            <span class="status-badge published">Published</span>
+                        </div>
+                        <a href="https://github.com/abishpius/R-Tutorial-From-Scratch/wiki" target="_blank" class="btn btn-primary">Read Tutorial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Interested in AI/ML consulting, collaboration, or just want to chat about data science? I'd love to hear from you.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>abishpius@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>737-241-0584</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pittsburgh, PA</span>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/abish-pius-424566b3/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/abishpius" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.kaggle.com/abishpius" target="_blank"><i class="fab fa-kaggle"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Abish Pius. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
-
