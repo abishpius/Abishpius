@@ -30,6 +30,9 @@ Data Scientist and AI/ML Engineer with expertise in bridging healthcare and data
 
 ### Publications & Content
 
+- 📚 **The Professional's Introduction to Data Science with Python**
+  - [Book Website](https://abishpius.github.io/data-science-book/)
+  - Purchase: [Kindle ($1.99)](https://kdp.amazon.com/amazon-dp-action/us/dualbookshelf.marketplacelink/B0G39M1KQM) | [Hardcover ($49.99)](https://kdp.amazon.com/amazon-dp-action/us/dualbookshelf.marketplacelink/B0G3HV8TBL)
 - 📚 [R Tutorial From Scratch](https://github.com/abishpius/R-Tutorial-From-Scratch/wiki) - Complete guide to R programming
 - 📝 [Medium Blog](https://abishpius.medium.com/) - AI/ML insights and data science articles
 
